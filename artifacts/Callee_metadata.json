@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Callee.sol": "Callee"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Callee.sol": {
+			"keccak256": "0x2a30e256c0e8655da98abacbaf40724b3d882c2545b32d4db7cae2bc27dbbdd0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0b54fbde81ea1c5e4837be88e9c6fa434d300444af9004d915cf0517c841d3f1",
+				"dweb:/ipfs/QmeMi4VLKUeuyMkq9iEuRTVLCkUMhwx7z33DWahuWt1c7J"
+			]
+		},
+		"ICallee.sol": {
+			"keccak256": "0x32967b8a280b97bf201cf19252b31a36525ed83ae884c43848dbc158dd907ad4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5f5817c8c39d61246928eb7ba2d1a2f36b2e0a8b985a08bd4b14a8dc4aba13fa",
+				"dweb:/ipfs/QmNVRtGzUiyC2GD5DnoSYarqkTUXxn3ZxzBXK3hhoonzSC"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_calleeAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setCalleeX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Caller.sol": "Caller"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Caller.sol": {
+			"keccak256": "0xc1f4b7abca9610653d54842672a57555fc0259712f38fe6d0af8e2f87fdc6584",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://65282bbdfccda69ec0c30abef08d3e1ba983a229c74e2c439775d865395c1f9f",
+				"dweb:/ipfs/QmWnZPt6TNdCKVSq6DDFAd2BQYjiCxLUdsLfZQuNFrtrN8"
+			]
+		},
+		"ICallee.sol": {
+			"keccak256": "0xac6878758ec08f995a79776cf7849d5b006699b0fb4e5493c1cba110d06fa4fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d2b08d387f7801e97dd921762dc192299fab1b52c194775736a0f507abb39703",
+				"dweb:/ipfs/QmbNkHwPMBaEkxKbxMvZaKUy1UNQ1nbzhaeK2fhyp23TCe"
+			]
+		}
+	},
+	"version": 1
+}

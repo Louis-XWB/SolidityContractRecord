@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ICallee.sol": "ICallee"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ICallee.sol": {
+			"keccak256": "0x32967b8a280b97bf201cf19252b31a36525ed83ae884c43848dbc158dd907ad4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5f5817c8c39d61246928eb7ba2d1a2f36b2e0a8b985a08bd4b14a8dc4aba13fa",
+				"dweb:/ipfs/QmNVRtGzUiyC2GD5DnoSYarqkTUXxn3ZxzBXK3hhoonzSC"
+			]
+		}
+	},
+	"version": 1
+}
