@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_logic",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "logic",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newVersion",
+						"type": "address"
+					}
+				],
+				"name": "upgradeTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"proxy/basic-proxy.sol": "Proxy"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"proxy/basic-proxy.sol": {
+			"keccak256": "0xc097fc526c02dcca46ba298085f58201d45573f23027ab7f5f60849c33d851c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14a1347533ed1695015f3b0219691d354f167c9dd6440a319e4f893938a8600e",
+				"dweb:/ipfs/QmWdPNw91j7V6DaxJ1F2aZKiWth2VeJE83dqngpw89FJMf"
+			]
+		}
+	},
+	"version": 1
+}
