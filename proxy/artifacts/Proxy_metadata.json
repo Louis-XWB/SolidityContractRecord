@@ -47,6 +47,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "placeholder2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -88,11 +101,11 @@
 	},
 	"sources": {
 		"proxy/basic-proxy.sol": {
-			"keccak256": "0xc097fc526c02dcca46ba298085f58201d45573f23027ab7f5f60849c33d851c7",
+			"keccak256": "0xd02cfdfacb0446f3b833aeca31f54c192cc986bc2fc66a8359ac5b476da0c329",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://14a1347533ed1695015f3b0219691d354f167c9dd6440a319e4f893938a8600e",
-				"dweb:/ipfs/QmWdPNw91j7V6DaxJ1F2aZKiWth2VeJE83dqngpw89FJMf"
+				"bzz-raw://7d694e1a2b6facac53d34c3b316e488537d185a87ff3cfc4405182c47bc4d365",
+				"dweb:/ipfs/QmXZXJbAjj4XCG9VTcbNiG9Avni8K6xJo5HRcRM2mLEt4j"
 			]
 		}
 	},

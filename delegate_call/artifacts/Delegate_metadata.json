@@ -6,28 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "inc",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "placeholder",
+				"name": "owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -36,6 +27,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -52,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"proxy/basic-proxy.sol": "LogicV2"
+			"delegate_call/ethernaut_delegatecall.sol": "Delegate"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -66,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"proxy/basic-proxy.sol": {
-			"keccak256": "0xd02cfdfacb0446f3b833aeca31f54c192cc986bc2fc66a8359ac5b476da0c329",
+		"delegate_call/ethernaut_delegatecall.sol": {
+			"keccak256": "0x56dd6c23aff27f64e29de398c0440131870c7697d47f5cb2435a804b70a4601c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7d694e1a2b6facac53d34c3b316e488537d185a87ff3cfc4405182c47bc4d365",
-				"dweb:/ipfs/QmXZXJbAjj4XCG9VTcbNiG9Avni8K6xJo5HRcRM2mLEt4j"
+				"bzz-raw://3ca8433c36c4eec3ec15124ca21400792dbc05cea88cfc4f28c418493eedb924",
+				"dweb:/ipfs/QmNdX4hi4NcxegoRps3UAjLHpimasQsonvcrg5k3us3kUW"
 			]
 		}
 	},

@@ -4,9 +4,11 @@ pragma solidity ^0.8.17;
 contract LogicV1{
     address public placeholder;
     uint256 public count;
+    address public placeholder2;
 
     function inc() external {
         count += 1;
+        placeholder2 = msg.sender;
     }
  
     
@@ -28,6 +30,7 @@ interface LogicInterce{
 contract Proxy {
     address public logic;
     uint256 public count;
+    address public placeholder2;
     constructor(address _logic){
         logic = _logic;
     }
